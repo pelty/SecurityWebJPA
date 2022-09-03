@@ -64,7 +64,7 @@ public class FormRegisterUser extends HttpServlet{
             case "Le pseudo est deja utilisé" :
                 initDispatcher(req, resp);
                 break;
-            case "Mot de passe diffèrent" :
+            case "Mot de passe différent" :
                 initDispatcher(req, resp);
                 break;
             case "Vous devez remplir tous les champs" :

@@ -59,7 +59,7 @@ public class UserUtils {
                             return result = "creation utilisateur reussi";
                     }                    
                 }else result = "Le pseudo est deja utilisé";
-            }else result = "Mot de passe diffèrent";
+            }else result = "Mot de passe différent";
             
         }else result = "Vous devez remplir tous les champs";
         
